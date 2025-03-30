@@ -1,6 +1,6 @@
 package Questao2;
 
-public class Funcionario {
+    abstract class Funcionario {
     protected String nome,cargo;
     protected  double salario;
     

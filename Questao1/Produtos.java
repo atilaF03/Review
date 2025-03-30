@@ -40,9 +40,9 @@ public class Produtos {
 
     public void informacoes() {
     System.out.println("produtos");
-    System.out.println(" o nome"+ getNome());
-    System.out.println(" o nome"+ getPreco());
-    System.out.println(" o nome"+ getQuantidade());
+    System.out.println("o nome: "+ getNome());
+    System.out.println("o valor: "+ getPreco());
+    System.out.println("a quantidade: "+ getQuantidade());
     double total = calcularValorTotal();
     System.out.println("total:"+total);
     }
