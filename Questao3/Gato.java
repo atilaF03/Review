@@ -1,4 +1,4 @@
-package Questão3;
+package Questao3;
 
 public class Gato extends Animal {
 
@@ -9,6 +9,7 @@ public class Gato extends Animal {
     @Override
     void fazerSom() {
         System.out.println(" o gato  "+getNome()+ " de cor "+getCor());
+        System.out.println("esta miando ");
         System.out.println("miau miau ");
     }    }
 

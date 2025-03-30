@@ -1,4 +1,4 @@
-package Questão3;
+package Questao3;
 
 abstract  class Animal {
  protected String  nome , cor;
